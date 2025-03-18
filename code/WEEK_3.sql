@@ -1,5 +1,5 @@
 CREATE TABLE 학원샘(
-    id digserial,--bugsertal은 postgreSQL에서만 사용 할 수 있는 자동 증가하는 숫자입니다.
+    id bugserial,--bugsertal은 postgreSQL에서만 사용 할 수 있는 자동 증가하는 숫자입니다.
    학원샘이름 varchar(25), 
    폰번호 varchar(13),
    나이 int,
@@ -16,7 +16,7 @@ VALUES ('홍길동','010-1237-6542', 19, '송원고' , 3,1,10),
       ('박순희', '010-7789-6754', 17 , '이슬고',1,3,16);
 
 CREATE TABLE 학교(
-    id digserial, -- bugsertal은 postgreSQL에서만 사용 할 수 있는 자동 증가하는 숫자입니다.
+    id bugserial, -- bugsertal은 postgreSQL에서만 사용 할 수 있는 자동 증가하는 숫자입니다.
    학교명 varchar(25), 
     분류 int,
    학생 수 mumeric, -- int는 약간 작은 정수이어서 mumeric 타입 사용함.
